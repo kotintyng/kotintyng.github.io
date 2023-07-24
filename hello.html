@@ -1,27 +1,62 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #logo {
+            margin-top: 50px;
+        }
+
+        img {
+            max-width: 272px;
+            height: auto;
+        }
+
+        #search-form {
+            margin-top: 30px;
+        }
+
+        input[type="text"] {
+            width: 400px;
+            height: 30px;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        input[type="submit"],
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <div id="logo" align="center">
+    <div id="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
-    <br>
-    <br>
-    <div align="center">
+    <div id="search-form">
         <form action="https://www.google.com/search">
-            <input type="text" placeholder="Search Here" size="100">
+            <input type="text" placeholder="Search Here">
+            <br>
+            <br>
+            <input type="submit" value="Google Search">
+            <a href="https://c4.wallpaperflare.com/wallpaper/325/179/787/anime-darling-in-the-franxx-zero-two-darling-in-the-franxx-wallpaper-preview.jpg">
+                <button>I'm Feeling Lucky</button>
+            </a>
         </form>
-        <br>
-        <br>
-        <input type="submit" value="Google Search">
-        <a href="https://c4.wallpaperflare.com/wallpaper/325/179/787/anime-darling-in-the-franxx-zero-two-darling-in-the-franxx-wallpaper-preview.jpg">
-            <button> I'm Feeling Lucky</button>
-        </a>
     </div>
     <br>
-    <br>
-    <div align="center"> Google offered in: <a href="https://www.google.com.mm"> Myanmar </a> </div>
+    <div>Google offered in: <a href="https://www.google.com.mm">Myanmar</a><br></div>
 </body>
 </html>
